@@ -7,136 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B7931932004077100DF59E1 /* observer.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7930DC2004075600DF59E1 /* observer.d */; };
-		4B7931942004077100DF59E1 /* thing.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7930DD2004075600DF59E1 /* thing.d */; };
-		4B7931952004077100DF59E1 /* pcGoblin.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7930DE2004075600DF59E1 /* pcGoblin.d */; };
-		4B7931962004077100DF59E1 /* potionRH.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7930DF2004075600DF59E1 /* potionRH.o */; };
-		4B7931972004077100DF59E1 /* goldMerchant.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7930E02004075600DF59E1 /* goldMerchant.d */; };
-		4B7931982004077100DF59E1 /* main.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7930E12004075600DF59E1 /* main.o */; };
-		4B7931992004077100DF59E1 /* item.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7930E22004075600DF59E1 /* item.d */; };
-		4B79319A2004077100DF59E1 /* potion.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7930E32004075600DF59E1 /* potion.d */; };
-		4B79319B2004077100DF59E1 /* enemyDragon.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7930E62004075600DF59E1 /* enemyDragon.o */; };
-		4B79319C2004077100DF59E1 /* floor.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7930E72004075600DF59E1 /* floor.o */; };
-		4B79319D2004077100DF59E1 /* pcShade.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7930E82004075600DF59E1 /* pcShade.o */; };
-		4B79319E2004077100DF59E1 /* enemyElf.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7930EB2004075600DF59E1 /* enemyElf.d */; };
-		4B79319F2004077100DF59E1 /* potionWD.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7930EC2004075700DF59E1 /* potionWD.d */; };
-		4B7931A02004077100DF59E1 /* enemy.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7930ED2004075700DF59E1 /* enemy.d */; };
-		4B7931A12004077100DF59E1 /* cellEmpty.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7930EE2004075700DF59E1 /* cellEmpty.cc */; };
-		4B7931A22004077100DF59E1 /* enemyElf.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7930EF2004075700DF59E1 /* enemyElf.o */; };
-		4B7931A32004077100DF59E1 /* cellWall.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7930F12004075700DF59E1 /* cellWall.d */; };
-		4B7931A42004077100DF59E1 /* pcDrow.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7930F22004075700DF59E1 /* pcDrow.o */; };
-		4B7931A52004077100DF59E1 /* potionRH.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7930F42004075700DF59E1 /* potionRH.cc */; };
-		4B7931A62004077100DF59E1 /* figure.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7930F52004075800DF59E1 /* figure.cc */; };
-		4B7931A72004077100DF59E1 /* pc.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7930F62004075800DF59E1 /* pc.d */; };
-		4B7931A82004077100DF59E1 /* enemyDwarf.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7930F72004075800DF59E1 /* enemyDwarf.cc */; };
-		4B7931A92004077100DF59E1 /* goldNormal.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7930F82004075900DF59E1 /* goldNormal.cc */; };
-		4B7931AA2004077100DF59E1 /* random.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7930FA2004075900DF59E1 /* random.d */; };
-		4B7931AB2004077100DF59E1 /* goldMerchant.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7930FD2004075A00DF59E1 /* goldMerchant.o */; };
-		4B7931AC2004077100DF59E1 /* cellStairWay.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7930FE2004075A00DF59E1 /* cellStairWay.cc */; };
-		4B7931AD2004077100DF59E1 /* pcGoblin.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7930FF2004075A00DF59E1 /* pcGoblin.cc */; };
-		4B7931AE2004077100DF59E1 /* potionBA.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931002004075A00DF59E1 /* potionBA.d */; };
-		4B7931AF2004077100DF59E1 /* cellDoorWay.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931012004075B00DF59E1 /* cellDoorWay.d */; };
-		4B7931B02004077100DF59E1 /* cellPassage.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931022004075B00DF59E1 /* cellPassage.o */; };
-		4B7931B12004077100DF59E1 /* potion.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931032004075B00DF59E1 /* potion.cc */; };
-		4B7931B22004077100DF59E1 /* cellFloorTile.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931042004075B00DF59E1 /* cellFloorTile.o */; };
-		4B7931B32004077100DF59E1 /* pcTroll.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931052004075B00DF59E1 /* pcTroll.o */; };
-		4B7931B42004077100DF59E1 /* goldNormal.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931062004075B00DF59E1 /* goldNormal.d */; };
-		4B7931B52004077100DF59E1 /* pcVampire.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931072004075C00DF59E1 /* pcVampire.cc */; };
-		4B7931B62004077100DF59E1 /* potionBA.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931082004075C00DF59E1 /* potionBA.cc */; };
-		4B7931B72004077100DF59E1 /* potionWA.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931092004075C00DF59E1 /* potionWA.d */; };
-		4B7931B82004077100DF59E1 /* goldDragon.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B79310B2004075C00DF59E1 /* goldDragon.d */; };
-		4B7931B92004077100DF59E1 /* goldSmall.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B79310C2004075C00DF59E1 /* goldSmall.o */; };
-		4B7931BA2004077100DF59E1 /* potionWA.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B79310D2004075C00DF59E1 /* potionWA.o */; };
-		4B7931BB2004077100DF59E1 /* goldSmall.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79310E2004075D00DF59E1 /* goldSmall.cc */; };
-		4B7931BC2004077100DF59E1 /* cellPassage.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931102004075D00DF59E1 /* cellPassage.cc */; };
-		4B7931BD2004077100DF59E1 /* enemyElf.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931112004075D00DF59E1 /* enemyElf.cc */; };
-		4B7931BE2004077100DF59E1 /* enemyHalfling.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931122004075D00DF59E1 /* enemyHalfling.d */; };
-		4B7931BF2004077100DF59E1 /* enemyHalfling.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931152004075E00DF59E1 /* enemyHalfling.cc */; };
-		4B7931C02004077100DF59E1 /* enemyHuman.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931172004075E00DF59E1 /* enemyHuman.cc */; };
-		4B7931C12004077100DF59E1 /* gold.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931192004075E00DF59E1 /* gold.o */; };
-		4B7931C22004077100DF59E1 /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79311B2004075E00DF59E1 /* main.cc */; };
-		4B7931C32004077100DF59E1 /* goldNormal.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B79311C2004075F00DF59E1 /* goldNormal.o */; };
-		4B7931C42004077100DF59E1 /* pcShade.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79311D2004075F00DF59E1 /* pcShade.cc */; };
-		4B7931C52004077100DF59E1 /* subject.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B79311E2004075F00DF59E1 /* subject.o */; };
-		4B7931C62004077100DF59E1 /* goldDragon.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B79311F2004075F00DF59E1 /* goldDragon.o */; };
-		4B7931C72004077100DF59E1 /* textdisplay.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931222004075F00DF59E1 /* textdisplay.o */; };
-		4B7931C82004077100DF59E1 /* thing.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931232004076000DF59E1 /* thing.o */; };
-		4B7931C92004077100DF59E1 /* potionWD.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931242004076000DF59E1 /* potionWD.o */; };
-		4B7931CA2004077100DF59E1 /* cellFloorTile.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931252004076000DF59E1 /* cellFloorTile.d */; };
-		4B7931CB2004077100DF59E1 /* cellDoorWay.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931262004076000DF59E1 /* cellDoorWay.cc */; };
-		4B7931CC2004077100DF59E1 /* goldMerchant.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931272004076000DF59E1 /* goldMerchant.cc */; };
-		4B7931CD2004077100DF59E1 /* pcVampire.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931282004076000DF59E1 /* pcVampire.o */; };
-		4B7931CE2004077100DF59E1 /* cellDoorWay.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931292004076000DF59E1 /* cellDoorWay.o */; };
-		4B7931CF2004077100DF59E1 /* enemy.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79312A2004076100DF59E1 /* enemy.cc */; };
-		4B7931D02004077100DF59E1 /* enemyOrcs.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B79312B2004076100DF59E1 /* enemyOrcs.d */; };
-		4B7931D12004077100DF59E1 /* item.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B79312C2004076100DF59E1 /* item.o */; };
-		4B7931D22004077100DF59E1 /* potionBA.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B79312E2004076100DF59E1 /* potionBA.o */; };
-		4B7931D32004077100DF59E1 /* cellPassage.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931322004076200DF59E1 /* cellPassage.d */; };
-		4B7931D42004077100DF59E1 /* potionWA.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931332004076200DF59E1 /* potionWA.cc */; };
-		4B7931D52004077100DF59E1 /* random.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931352004076200DF59E1 /* random.o */; };
-		4B7931D62004077100DF59E1 /* item.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931362004076200DF59E1 /* item.cc */; };
-		4B7931D72004077100DF59E1 /* floor.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931372004076200DF59E1 /* floor.cc */; };
-		4B7931D82004077100DF59E1 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931382004076300DF59E1 /* Makefile */; };
-		4B7931D92004077100DF59E1 /* potionPH.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931392004076300DF59E1 /* potionPH.cc */; };
-		4B7931DA2004077100DF59E1 /* gold.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79313C2004076300DF59E1 /* gold.cc */; };
-		4B7931DB2004077100DF59E1 /* potionRH.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B79313D2004076300DF59E1 /* potionRH.d */; };
-		4B7931DC2004077100DF59E1 /* potionPH.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B79313E2004076300DF59E1 /* potionPH.d */; };
-		4B7931DD2004077100DF59E1 /* pcDrow.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B79313F2004076400DF59E1 /* pcDrow.d */; };
-		4B7931DE2004077100DF59E1 /* enemyHuman.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931422004076400DF59E1 /* enemyHuman.o */; };
-		4B7931DF2004077100DF59E1 /* cellStairWay.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931442004076400DF59E1 /* cellStairWay.o */; };
-		4B7931E02004077100DF59E1 /* cell.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931452004076400DF59E1 /* cell.o */; };
-		4B7931E12004077100DF59E1 /* pcTroll.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931492004076500DF59E1 /* pcTroll.d */; };
-		4B7931E22004077100DF59E1 /* potionBD.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79314A2004076500DF59E1 /* potionBD.cc */; };
-		4B7931E32004077100DF59E1 /* subject.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B79314B2004076500DF59E1 /* subject.d */; };
-		4B7931E42004077100DF59E1 /* goldDragon.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79314C2004076500DF59E1 /* goldDragon.cc */; };
-		4B7931E52004077100DF59E1 /* potionBD.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B79314D2004076500DF59E1 /* potionBD.d */; };
-		4B7931E62004077100DF59E1 /* textdisplay.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931502004076600DF59E1 /* textdisplay.d */; };
-		4B7931E72004077100DF59E1 /* subject.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931512004076600DF59E1 /* subject.cc */; };
-		4B7931E82004077100DF59E1 /* potionPH.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931522004076600DF59E1 /* potionPH.o */; };
-		4B7931E92004077100DF59E1 /* dlcScoreBoard.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931532004076600DF59E1 /* dlcScoreBoard.cc */; };
-		4B7931EA2004077100DF59E1 /* figure.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931552004076700DF59E1 /* figure.d */; };
-		4B7931EB2004077100DF59E1 /* cellEmpty.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931562004076700DF59E1 /* cellEmpty.o */; };
-		4B7931EC2004077100DF59E1 /* thing.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931572004076700DF59E1 /* thing.cc */; };
-		4B7931ED2004077100DF59E1 /* enemy.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931582004076700DF59E1 /* enemy.o */; };
-		4B7931EE2004077100DF59E1 /* cell.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931592004076800DF59E1 /* cell.d */; };
-		4B7931EF2004077100DF59E1 /* pcDrow.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79315C2004076800DF59E1 /* pcDrow.cc */; };
-		4B7931F02004077100DF59E1 /* potion.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B79315D2004076800DF59E1 /* potion.o */; };
-		4B7931F12004077100DF59E1 /* enemyHuman.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B79315E2004076900DF59E1 /* enemyHuman.d */; };
-		4B7931F22004077100DF59E1 /* enemyMerchant.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B79315F2004076900DF59E1 /* enemyMerchant.o */; };
-		4B7931F32004077100DF59E1 /* enemyOrcs.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931602004076900DF59E1 /* enemyOrcs.cc */; };
-		4B7931F42004077100DF59E1 /* enemyHalfling.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931612004076900DF59E1 /* enemyHalfling.o */; };
-		4B7931F52004077100DF59E1 /* cellStairWay.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931632004076900DF59E1 /* cellStairWay.d */; };
-		4B7931F62004077100DF59E1 /* enemyMerchant.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931642004076A00DF59E1 /* enemyMerchant.cc */; };
-		4B7931F72004077100DF59E1 /* potionBD.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931652004076A00DF59E1 /* potionBD.o */; };
-		4B7931F82004077100DF59E1 /* goldSmall.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931692004076A00DF59E1 /* goldSmall.d */; };
-		4B7931F92004077100DF59E1 /* cellWall.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B79316A2004076A00DF59E1 /* cellWall.o */; };
-		4B7931FA2004077100DF59E1 /* cell.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79316B2004076B00DF59E1 /* cell.cc */; };
-		4B7931FB2004077100DF59E1 /* cellFloorTile.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79316C2004076B00DF59E1 /* cellFloorTile.cc */; };
-		4B7931FC2004077100DF59E1 /* dlcScoreBoard.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B79316D2004076B00DF59E1 /* dlcScoreBoard.o */; };
-		4B7931FD2004077100DF59E1 /* pcShade.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931712004076C00DF59E1 /* pcShade.d */; };
-		4B7931FE2004077100DF59E1 /* pcVampire.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931732004076C00DF59E1 /* pcVampire.d */; };
-		4B7931FF2004077100DF59E1 /* potionWD.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931762004076C00DF59E1 /* potionWD.cc */; };
-		4B7932002004077100DF59E1 /* random.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931772004076D00DF59E1 /* random.cc */; };
-		4B7932012004077100DF59E1 /* main.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931782004076D00DF59E1 /* main.d */; };
-		4B7932022004077100DF59E1 /* dlcScoreBoard.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931792004076D00DF59E1 /* dlcScoreBoard.d */; };
-		4B7932032004077100DF59E1 /* enemyOrcs.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B79317A2004076D00DF59E1 /* enemyOrcs.o */; };
-		4B7932042004077100DF59E1 /* enemyDragon.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B79317B2004076D00DF59E1 /* enemyDragon.d */; };
-		4B7932052004077100DF59E1 /* figure.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B79317C2004076D00DF59E1 /* figure.o */; };
-		4B7932062004077100DF59E1 /* floor.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B79317D2004076D00DF59E1 /* floor.d */; };
-		4B7932072004077100DF59E1 /* observer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931802004076E00DF59E1 /* observer.cc */; };
-		4B7932082004077100DF59E1 /* pc.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931812004076E00DF59E1 /* pc.o */; };
-		4B7932092004077100DF59E1 /* pcTroll.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931822004076E00DF59E1 /* pcTroll.cc */; };
-		4B79320A2004077100DF59E1 /* textdisplay.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931832004076E00DF59E1 /* textdisplay.cc */; };
-		4B79320B2004077100DF59E1 /* pcGoblin.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931842004076E00DF59E1 /* pcGoblin.o */; };
-		4B79320C2004077100DF59E1 /* observer.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7931852004076F00DF59E1 /* observer.o */; };
-		4B79320D2004077100DF59E1 /* enemyDragon.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931862004076F00DF59E1 /* enemyDragon.cc */; };
-		4B79320E2004077100DF59E1 /* cellWall.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931872004076F00DF59E1 /* cellWall.cc */; };
-		4B79320F2004077100DF59E1 /* enemyMerchant.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931882004076F00DF59E1 /* enemyMerchant.d */; };
-		4B7932102004077100DF59E1 /* pc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931892004076F00DF59E1 /* pc.cc */; };
-		4B7932112004077100DF59E1 /* cellEmpty.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B79318B2004076F00DF59E1 /* cellEmpty.d */; };
-		4B7932122004077100DF59E1 /* enemyDwarf.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B79318E2004077000DF59E1 /* enemyDwarf.o */; };
-		4B7932132004077100DF59E1 /* enemyDwarf.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B79318F2004077000DF59E1 /* enemyDwarf.d */; };
-		4B7932142004077100DF59E1 /* gold.d in Sources */ = {isa = PBXBuildFile; fileRef = 4B7931912004077000DF59E1 /* gold.d */; };
+		4B793277200408A100DF59E1 /* cellEmpty.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79321A2004089500DF59E1 /* cellEmpty.cc */; };
+		4B793278200408A100DF59E1 /* potionRH.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79321E2004089500DF59E1 /* potionRH.cc */; };
+		4B793279200408A100DF59E1 /* figure.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79321F2004089600DF59E1 /* figure.cc */; };
+		4B79327A200408A100DF59E1 /* enemyDwarf.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932202004089600DF59E1 /* enemyDwarf.cc */; };
+		4B79327B200408A100DF59E1 /* goldNormal.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932212004089600DF59E1 /* goldNormal.cc */; };
+		4B79327C200408A100DF59E1 /* pcGoblin.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932242004089600DF59E1 /* pcGoblin.cc */; };
+		4B79327D200408A100DF59E1 /* cellStairWay.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932252004089600DF59E1 /* cellStairWay.cc */; };
+		4B79327E200408A100DF59E1 /* potion.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932262004089600DF59E1 /* potion.cc */; };
+		4B79327F200408A100DF59E1 /* potionBA.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932272004089600DF59E1 /* potionBA.cc */; };
+		4B793280200408A100DF59E1 /* pcVampire.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932282004089600DF59E1 /* pcVampire.cc */; };
+		4B793281200408A100DF59E1 /* goldSmall.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79322A2004089600DF59E1 /* goldSmall.cc */; };
+		4B793282200408A100DF59E1 /* cellPassage.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79322C2004089700DF59E1 /* cellPassage.cc */; };
+		4B793283200408A100DF59E1 /* enemyElf.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79322D2004089700DF59E1 /* enemyElf.cc */; };
+		4B793284200408A100DF59E1 /* enemyHalfling.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932312004089700DF59E1 /* enemyHalfling.cc */; };
+		4B793285200408A100DF59E1 /* enemyHuman.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932332004089700DF59E1 /* enemyHuman.cc */; };
+		4B793286200408A100DF59E1 /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932352004089700DF59E1 /* main.cc */; };
+		4B793287200408A100DF59E1 /* pcShade.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932362004089800DF59E1 /* pcShade.cc */; };
+		4B793288200408A100DF59E1 /* cellDoorWay.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932392004089800DF59E1 /* cellDoorWay.cc */; };
+		4B793289200408A100DF59E1 /* goldMerchant.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79323A2004089800DF59E1 /* goldMerchant.cc */; };
+		4B79328A200408A100DF59E1 /* enemy.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79323B2004089800DF59E1 /* enemy.cc */; };
+		4B79328B200408A100DF59E1 /* potionWA.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932402004089900DF59E1 /* potionWA.cc */; };
+		4B79328C200408A100DF59E1 /* item.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932422004089900DF59E1 /* item.cc */; };
+		4B79328D200408A100DF59E1 /* floor.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932432004089900DF59E1 /* floor.cc */; };
+		4B79328E200408A100DF59E1 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932442004089A00DF59E1 /* Makefile */; };
+		4B79328F200408A100DF59E1 /* potionPH.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932452004089A00DF59E1 /* potionPH.cc */; };
+		4B793290200408A100DF59E1 /* gold.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932482004089A00DF59E1 /* gold.cc */; };
+		4B793291200408A100DF59E1 /* potionBD.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79324F2004089B00DF59E1 /* potionBD.cc */; };
+		4B793292200408A100DF59E1 /* goldDragon.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932502004089B00DF59E1 /* goldDragon.cc */; };
+		4B793293200408A100DF59E1 /* subject.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932532004089C00DF59E1 /* subject.cc */; };
+		4B793294200408A100DF59E1 /* dlcScoreBoard.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932542004089C00DF59E1 /* dlcScoreBoard.cc */; };
+		4B793295200408A100DF59E1 /* thing.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932562004089C00DF59E1 /* thing.cc */; };
+		4B793296200408A100DF59E1 /* pcDrow.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932592004089D00DF59E1 /* pcDrow.cc */; };
+		4B793297200408A100DF59E1 /* enemyOrcs.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79325A2004089D00DF59E1 /* enemyOrcs.cc */; };
+		4B793298200408A100DF59E1 /* enemyMerchant.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79325C2004089D00DF59E1 /* enemyMerchant.cc */; };
+		4B793299200408A100DF59E1 /* cell.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932622004089E00DF59E1 /* cell.cc */; };
+		4B79329A200408A100DF59E1 /* cellFloorTile.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932632004089E00DF59E1 /* cellFloorTile.cc */; };
+		4B79329B200408A100DF59E1 /* potionWD.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932662004089E00DF59E1 /* potionWD.cc */; };
+		4B79329C200408A100DF59E1 /* random.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B7932672004089E00DF59E1 /* random.cc */; };
+		4B79329D200408A100DF59E1 /* textdisplay.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79326A2004089F00DF59E1 /* textdisplay.cc */; };
+		4B79329E200408A100DF59E1 /* observer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79326D2004089F00DF59E1 /* observer.cc */; };
+		4B79329F200408A100DF59E1 /* pcTroll.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79326E2004089F00DF59E1 /* pcTroll.cc */; };
+		4B7932A0200408A100DF59E1 /* enemyDragon.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B79326F200408A000DF59E1 /* enemyDragon.cc */; };
+		4B7932A1200408A100DF59E1 /* cellWall.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B793270200408A000DF59E1 /* cellWall.cc */; };
+		4B7932A2200408A100DF59E1 /* pc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B793271200408A000DF59E1 /* pc.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -153,190 +67,104 @@
 
 /* Begin PBXFileReference section */
 		4B7930D12004073500DF59E1 /* CC3K */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CC3K; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B7930DB2004075600DF59E1 /* dlcMap001.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dlcMap001.txt; sourceTree = "<group>"; };
-		4B7930DC2004075600DF59E1 /* observer.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = observer.d; sourceTree = "<group>"; };
-		4B7930DD2004075600DF59E1 /* thing.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = thing.d; sourceTree = "<group>"; };
-		4B7930DE2004075600DF59E1 /* pcGoblin.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = pcGoblin.d; sourceTree = "<group>"; };
-		4B7930DF2004075600DF59E1 /* potionRH.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = potionRH.o; sourceTree = "<group>"; };
-		4B7930E02004075600DF59E1 /* goldMerchant.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = goldMerchant.d; sourceTree = "<group>"; };
-		4B7930E12004075600DF59E1 /* main.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = main.o; sourceTree = "<group>"; };
-		4B7930E22004075600DF59E1 /* item.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = item.d; sourceTree = "<group>"; };
-		4B7930E32004075600DF59E1 /* potion.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = potion.d; sourceTree = "<group>"; };
-		4B7930E42004075600DF59E1 /* potionWD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = potionWD.h; sourceTree = "<group>"; };
-		4B7930E52004075600DF59E1 /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
-		4B7930E62004075600DF59E1 /* enemyDragon.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = enemyDragon.o; sourceTree = "<group>"; };
-		4B7930E72004075600DF59E1 /* floor.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = floor.o; sourceTree = "<group>"; };
-		4B7930E82004075600DF59E1 /* pcShade.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = pcShade.o; sourceTree = "<group>"; };
-		4B7930E92004075600DF59E1 /* globalPotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globalPotion.h; sourceTree = "<group>"; };
-		4B7930EA2004075600DF59E1 /* potionRH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = potionRH.h; sourceTree = "<group>"; };
-		4B7930EB2004075600DF59E1 /* enemyElf.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = enemyElf.d; sourceTree = "<group>"; };
-		4B7930EC2004075700DF59E1 /* potionWD.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = potionWD.d; sourceTree = "<group>"; };
-		4B7930ED2004075700DF59E1 /* enemy.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = enemy.d; sourceTree = "<group>"; };
-		4B7930EE2004075700DF59E1 /* cellEmpty.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cellEmpty.cc; sourceTree = "<group>"; };
-		4B7930EF2004075700DF59E1 /* enemyElf.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = enemyElf.o; sourceTree = "<group>"; };
-		4B7930F02004075700DF59E1 /* enemyOrcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enemyOrcs.h; sourceTree = "<group>"; };
-		4B7930F12004075700DF59E1 /* cellWall.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = cellWall.d; sourceTree = "<group>"; };
-		4B7930F22004075700DF59E1 /* pcDrow.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = pcDrow.o; sourceTree = "<group>"; };
-		4B7930F32004075700DF59E1 /* potionBD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = potionBD.h; sourceTree = "<group>"; };
-		4B7930F42004075700DF59E1 /* potionRH.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = potionRH.cc; sourceTree = "<group>"; };
-		4B7930F52004075800DF59E1 /* figure.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = figure.cc; sourceTree = "<group>"; };
-		4B7930F62004075800DF59E1 /* pc.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = pc.d; sourceTree = "<group>"; };
-		4B7930F72004075800DF59E1 /* enemyDwarf.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enemyDwarf.cc; sourceTree = "<group>"; };
-		4B7930F82004075900DF59E1 /* goldNormal.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = goldNormal.cc; sourceTree = "<group>"; };
-		4B7930F92004075900DF59E1 /* potionWA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = potionWA.h; sourceTree = "<group>"; };
-		4B7930FA2004075900DF59E1 /* random.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = random.d; sourceTree = "<group>"; };
-		4B7930FB2004075A00DF59E1 /* thing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thing.h; sourceTree = "<group>"; };
-		4B7930FC2004075A00DF59E1 /* goldMerchant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = goldMerchant.h; sourceTree = "<group>"; };
-		4B7930FD2004075A00DF59E1 /* goldMerchant.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = goldMerchant.o; sourceTree = "<group>"; };
-		4B7930FE2004075A00DF59E1 /* cellStairWay.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cellStairWay.cc; sourceTree = "<group>"; };
-		4B7930FF2004075A00DF59E1 /* pcGoblin.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pcGoblin.cc; sourceTree = "<group>"; };
-		4B7931002004075A00DF59E1 /* potionBA.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = potionBA.d; sourceTree = "<group>"; };
-		4B7931012004075B00DF59E1 /* cellDoorWay.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = cellDoorWay.d; sourceTree = "<group>"; };
-		4B7931022004075B00DF59E1 /* cellPassage.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = cellPassage.o; sourceTree = "<group>"; };
-		4B7931032004075B00DF59E1 /* potion.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = potion.cc; sourceTree = "<group>"; };
-		4B7931042004075B00DF59E1 /* cellFloorTile.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = cellFloorTile.o; sourceTree = "<group>"; };
-		4B7931052004075B00DF59E1 /* pcTroll.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = pcTroll.o; sourceTree = "<group>"; };
-		4B7931062004075B00DF59E1 /* goldNormal.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = goldNormal.d; sourceTree = "<group>"; };
-		4B7931072004075C00DF59E1 /* pcVampire.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pcVampire.cc; sourceTree = "<group>"; };
-		4B7931082004075C00DF59E1 /* potionBA.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = potionBA.cc; sourceTree = "<group>"; };
-		4B7931092004075C00DF59E1 /* potionWA.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = potionWA.d; sourceTree = "<group>"; };
-		4B79310A2004075C00DF59E1 /* enemyDwarf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enemyDwarf.h; sourceTree = "<group>"; };
-		4B79310B2004075C00DF59E1 /* goldDragon.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = goldDragon.d; sourceTree = "<group>"; };
-		4B79310C2004075C00DF59E1 /* goldSmall.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = goldSmall.o; sourceTree = "<group>"; };
-		4B79310D2004075C00DF59E1 /* potionWA.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = potionWA.o; sourceTree = "<group>"; };
-		4B79310E2004075D00DF59E1 /* goldSmall.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = goldSmall.cc; sourceTree = "<group>"; };
-		4B79310F2004075D00DF59E1 /* cellWall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellWall.h; sourceTree = "<group>"; };
-		4B7931102004075D00DF59E1 /* cellPassage.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cellPassage.cc; sourceTree = "<group>"; };
-		4B7931112004075D00DF59E1 /* enemyElf.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enemyElf.cc; sourceTree = "<group>"; };
-		4B7931122004075D00DF59E1 /* enemyHalfling.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = enemyHalfling.d; sourceTree = "<group>"; };
-		4B7931132004075D00DF59E1 /* enemyHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enemyHuman.h; sourceTree = "<group>"; };
-		4B7931142004075D00DF59E1 /* cellDoorWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellDoorWay.h; sourceTree = "<group>"; };
-		4B7931152004075E00DF59E1 /* enemyHalfling.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enemyHalfling.cc; sourceTree = "<group>"; };
-		4B7931162004075E00DF59E1 /* floor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = floor.h; sourceTree = "<group>"; };
-		4B7931172004075E00DF59E1 /* enemyHuman.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enemyHuman.cc; sourceTree = "<group>"; };
-		4B7931182004075E00DF59E1 /* globalPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globalPC.h; sourceTree = "<group>"; };
-		4B7931192004075E00DF59E1 /* gold.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = gold.o; sourceTree = "<group>"; };
-		4B79311A2004075E00DF59E1 /* goldDragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = goldDragon.h; sourceTree = "<group>"; };
-		4B79311B2004075E00DF59E1 /* main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
-		4B79311C2004075F00DF59E1 /* goldNormal.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = goldNormal.o; sourceTree = "<group>"; };
-		4B79311D2004075F00DF59E1 /* pcShade.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pcShade.cc; sourceTree = "<group>"; };
-		4B79311E2004075F00DF59E1 /* subject.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = subject.o; sourceTree = "<group>"; };
-		4B79311F2004075F00DF59E1 /* goldDragon.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = goldDragon.o; sourceTree = "<group>"; };
-		4B7931202004075F00DF59E1 /* dlcTest001.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dlcTest001.txt; sourceTree = "<group>"; };
-		4B7931212004075F00DF59E1 /* observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = observer.h; sourceTree = "<group>"; };
-		4B7931222004075F00DF59E1 /* textdisplay.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = textdisplay.o; sourceTree = "<group>"; };
-		4B7931232004076000DF59E1 /* thing.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = thing.o; sourceTree = "<group>"; };
-		4B7931242004076000DF59E1 /* potionWD.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = potionWD.o; sourceTree = "<group>"; };
-		4B7931252004076000DF59E1 /* cellFloorTile.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = cellFloorTile.d; sourceTree = "<group>"; };
-		4B7931262004076000DF59E1 /* cellDoorWay.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cellDoorWay.cc; sourceTree = "<group>"; };
-		4B7931272004076000DF59E1 /* goldMerchant.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = goldMerchant.cc; sourceTree = "<group>"; };
-		4B7931282004076000DF59E1 /* pcVampire.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = pcVampire.o; sourceTree = "<group>"; };
-		4B7931292004076000DF59E1 /* cellDoorWay.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = cellDoorWay.o; sourceTree = "<group>"; };
-		4B79312A2004076100DF59E1 /* enemy.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enemy.cc; sourceTree = "<group>"; };
-		4B79312B2004076100DF59E1 /* enemyOrcs.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = enemyOrcs.d; sourceTree = "<group>"; };
-		4B79312C2004076100DF59E1 /* item.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = item.o; sourceTree = "<group>"; };
-		4B79312D2004076100DF59E1 /* potionBA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = potionBA.h; sourceTree = "<group>"; };
-		4B79312E2004076100DF59E1 /* potionBA.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = potionBA.o; sourceTree = "<group>"; };
-		4B79312F2004076100DF59E1 /* enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enemy.h; sourceTree = "<group>"; };
-		4B7931302004076100DF59E1 /* cellPassage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellPassage.h; sourceTree = "<group>"; };
-		4B7931312004076200DF59E1 /* enemyHalfling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enemyHalfling.h; sourceTree = "<group>"; };
-		4B7931322004076200DF59E1 /* cellPassage.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = cellPassage.d; sourceTree = "<group>"; };
-		4B7931332004076200DF59E1 /* potionWA.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = potionWA.cc; sourceTree = "<group>"; };
-		4B7931342004076200DF59E1 /* gold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gold.h; sourceTree = "<group>"; };
-		4B7931352004076200DF59E1 /* random.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = random.o; sourceTree = "<group>"; };
-		4B7931362004076200DF59E1 /* item.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = item.cc; sourceTree = "<group>"; };
-		4B7931372004076200DF59E1 /* floor.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = floor.cc; sourceTree = "<group>"; };
-		4B7931382004076300DF59E1 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		4B7931392004076300DF59E1 /* potionPH.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = potionPH.cc; sourceTree = "<group>"; };
-		4B79313A2004076300DF59E1 /* cellFloorTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellFloorTile.h; sourceTree = "<group>"; };
-		4B79313B2004076300DF59E1 /* globalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globalCell.h; sourceTree = "<group>"; };
-		4B79313C2004076300DF59E1 /* gold.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gold.cc; sourceTree = "<group>"; };
-		4B79313D2004076300DF59E1 /* potionRH.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = potionRH.d; sourceTree = "<group>"; };
-		4B79313E2004076300DF59E1 /* potionPH.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = potionPH.d; sourceTree = "<group>"; };
-		4B79313F2004076400DF59E1 /* pcDrow.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = pcDrow.d; sourceTree = "<group>"; };
-		4B7931402004076400DF59E1 /* goldSmall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = goldSmall.h; sourceTree = "<group>"; };
-		4B7931412004076400DF59E1 /* textdisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textdisplay.h; sourceTree = "<group>"; };
-		4B7931422004076400DF59E1 /* enemyHuman.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = enemyHuman.o; sourceTree = "<group>"; };
-		4B7931432004076400DF59E1 /* item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = item.h; sourceTree = "<group>"; };
-		4B7931442004076400DF59E1 /* cellStairWay.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = cellStairWay.o; sourceTree = "<group>"; };
-		4B7931452004076400DF59E1 /* cell.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = cell.o; sourceTree = "<group>"; };
-		4B7931462004076400DF59E1 /* enemyMerchant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enemyMerchant.h; sourceTree = "<group>"; };
-		4B7931472004076500DF59E1 /* emptyFloor.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = emptyFloor.txt; sourceTree = "<group>"; };
-		4B7931482004076500DF59E1 /* pc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pc.h; sourceTree = "<group>"; };
-		4B7931492004076500DF59E1 /* pcTroll.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = pcTroll.d; sourceTree = "<group>"; };
-		4B79314A2004076500DF59E1 /* potionBD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = potionBD.cc; sourceTree = "<group>"; };
-		4B79314B2004076500DF59E1 /* subject.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = subject.d; sourceTree = "<group>"; };
-		4B79314C2004076500DF59E1 /* goldDragon.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = goldDragon.cc; sourceTree = "<group>"; };
-		4B79314D2004076500DF59E1 /* potionBD.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = potionBD.d; sourceTree = "<group>"; };
-		4B79314E2004076600DF59E1 /* enemyDragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enemyDragon.h; sourceTree = "<group>"; };
-		4B79314F2004076600DF59E1 /* potionPH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = potionPH.h; sourceTree = "<group>"; };
-		4B7931502004076600DF59E1 /* textdisplay.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = textdisplay.d; sourceTree = "<group>"; };
-		4B7931512004076600DF59E1 /* subject.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = subject.cc; sourceTree = "<group>"; };
-		4B7931522004076600DF59E1 /* potionPH.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = potionPH.o; sourceTree = "<group>"; };
-		4B7931532004076600DF59E1 /* dlcScoreBoard.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dlcScoreBoard.cc; sourceTree = "<group>"; };
-		4B7931542004076600DF59E1 /* figure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = figure.h; sourceTree = "<group>"; };
-		4B7931552004076700DF59E1 /* figure.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = figure.d; sourceTree = "<group>"; };
-		4B7931562004076700DF59E1 /* cellEmpty.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = cellEmpty.o; sourceTree = "<group>"; };
-		4B7931572004076700DF59E1 /* thing.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thing.cc; sourceTree = "<group>"; };
-		4B7931582004076700DF59E1 /* enemy.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = enemy.o; sourceTree = "<group>"; };
-		4B7931592004076800DF59E1 /* cell.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = cell.d; sourceTree = "<group>"; };
-		4B79315A2004076800DF59E1 /* pcShade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcShade.h; sourceTree = "<group>"; };
-		4B79315B2004076800DF59E1 /* pcTroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcTroll.h; sourceTree = "<group>"; };
-		4B79315C2004076800DF59E1 /* pcDrow.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pcDrow.cc; sourceTree = "<group>"; };
-		4B79315D2004076800DF59E1 /* potion.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = potion.o; sourceTree = "<group>"; };
-		4B79315E2004076900DF59E1 /* enemyHuman.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = enemyHuman.d; sourceTree = "<group>"; };
-		4B79315F2004076900DF59E1 /* enemyMerchant.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = enemyMerchant.o; sourceTree = "<group>"; };
-		4B7931602004076900DF59E1 /* enemyOrcs.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enemyOrcs.cc; sourceTree = "<group>"; };
-		4B7931612004076900DF59E1 /* enemyHalfling.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = enemyHalfling.o; sourceTree = "<group>"; };
-		4B7931622004076900DF59E1 /* goldNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = goldNormal.h; sourceTree = "<group>"; };
-		4B7931632004076900DF59E1 /* cellStairWay.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = cellStairWay.d; sourceTree = "<group>"; };
-		4B7931642004076A00DF59E1 /* enemyMerchant.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enemyMerchant.cc; sourceTree = "<group>"; };
-		4B7931652004076A00DF59E1 /* potionBD.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = potionBD.o; sourceTree = "<group>"; };
-		4B7931662004076A00DF59E1 /* cellEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellEmpty.h; sourceTree = "<group>"; };
-		4B7931672004076A00DF59E1 /* dlcTest002.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dlcTest002.txt; sourceTree = "<group>"; };
-		4B7931682004076A00DF59E1 /* dlcScoreBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlcScoreBoard.h; sourceTree = "<group>"; };
-		4B7931692004076A00DF59E1 /* goldSmall.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = goldSmall.d; sourceTree = "<group>"; };
-		4B79316A2004076A00DF59E1 /* cellWall.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = cellWall.o; sourceTree = "<group>"; };
-		4B79316B2004076B00DF59E1 /* cell.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cell.cc; sourceTree = "<group>"; };
-		4B79316C2004076B00DF59E1 /* cellFloorTile.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cellFloorTile.cc; sourceTree = "<group>"; };
-		4B79316D2004076B00DF59E1 /* dlcScoreBoard.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = dlcScoreBoard.o; sourceTree = "<group>"; };
-		4B79316E2004076B00DF59E1 /* enemyElf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enemyElf.h; sourceTree = "<group>"; };
-		4B79316F2004076B00DF59E1 /* globalGold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globalGold.h; sourceTree = "<group>"; };
-		4B7931702004076B00DF59E1 /* pcDrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcDrow.h; sourceTree = "<group>"; };
-		4B7931712004076C00DF59E1 /* pcShade.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = pcShade.d; sourceTree = "<group>"; };
-		4B7931722004076C00DF59E1 /* cc3kfloor.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cc3kfloor.txt; sourceTree = "<group>"; };
-		4B7931732004076C00DF59E1 /* pcVampire.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = pcVampire.d; sourceTree = "<group>"; };
-		4B7931742004076C00DF59E1 /* pcVampire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcVampire.h; sourceTree = "<group>"; };
-		4B7931752004076C00DF59E1 /* potion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = potion.h; sourceTree = "<group>"; };
-		4B7931762004076C00DF59E1 /* potionWD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = potionWD.cc; sourceTree = "<group>"; };
-		4B7931772004076D00DF59E1 /* random.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = random.cc; sourceTree = "<group>"; };
-		4B7931782004076D00DF59E1 /* main.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = main.d; sourceTree = "<group>"; };
-		4B7931792004076D00DF59E1 /* dlcScoreBoard.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = dlcScoreBoard.d; sourceTree = "<group>"; };
-		4B79317A2004076D00DF59E1 /* enemyOrcs.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = enemyOrcs.o; sourceTree = "<group>"; };
-		4B79317B2004076D00DF59E1 /* enemyDragon.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = enemyDragon.d; sourceTree = "<group>"; };
-		4B79317C2004076D00DF59E1 /* figure.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = figure.o; sourceTree = "<group>"; };
-		4B79317D2004076D00DF59E1 /* floor.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = floor.d; sourceTree = "<group>"; };
-		4B79317E2004076E00DF59E1 /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
-		4B79317F2004076E00DF59E1 /* globalEnemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globalEnemy.h; sourceTree = "<group>"; };
-		4B7931802004076E00DF59E1 /* observer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = observer.cc; sourceTree = "<group>"; };
-		4B7931812004076E00DF59E1 /* pc.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = pc.o; sourceTree = "<group>"; };
-		4B7931822004076E00DF59E1 /* pcTroll.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pcTroll.cc; sourceTree = "<group>"; };
-		4B7931832004076E00DF59E1 /* textdisplay.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = textdisplay.cc; sourceTree = "<group>"; };
-		4B7931842004076E00DF59E1 /* pcGoblin.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = pcGoblin.o; sourceTree = "<group>"; };
-		4B7931852004076F00DF59E1 /* observer.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = observer.o; sourceTree = "<group>"; };
-		4B7931862004076F00DF59E1 /* enemyDragon.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enemyDragon.cc; sourceTree = "<group>"; };
-		4B7931872004076F00DF59E1 /* cellWall.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cellWall.cc; sourceTree = "<group>"; };
-		4B7931882004076F00DF59E1 /* enemyMerchant.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = enemyMerchant.d; sourceTree = "<group>"; };
-		4B7931892004076F00DF59E1 /* pc.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pc.cc; sourceTree = "<group>"; };
-		4B79318A2004076F00DF59E1 /* cellStairWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellStairWay.h; sourceTree = "<group>"; };
-		4B79318B2004076F00DF59E1 /* cellEmpty.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = cellEmpty.d; sourceTree = "<group>"; };
-		4B79318C2004077000DF59E1 /* pcGoblin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcGoblin.h; sourceTree = "<group>"; };
-		4B79318D2004077000DF59E1 /* cc3k */ = {isa = PBXFileReference; lastKnownFileType = file; path = cc3k; sourceTree = "<group>"; };
-		4B79318E2004077000DF59E1 /* enemyDwarf.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = enemyDwarf.o; sourceTree = "<group>"; };
-		4B79318F2004077000DF59E1 /* enemyDwarf.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = enemyDwarf.d; sourceTree = "<group>"; };
-		4B7931902004077000DF59E1 /* cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cell.h; sourceTree = "<group>"; };
-		4B7931912004077000DF59E1 /* gold.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = gold.d; sourceTree = "<group>"; };
-		4B7931922004077000DF59E1 /* subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subject.h; sourceTree = "<group>"; };
+		4B7932152004089500DF59E1 /* dlcMap001.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dlcMap001.txt; sourceTree = "<group>"; };
+		4B7932162004089500DF59E1 /* potionWD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = potionWD.h; sourceTree = "<group>"; };
+		4B7932172004089500DF59E1 /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+		4B7932182004089500DF59E1 /* globalPotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globalPotion.h; sourceTree = "<group>"; };
+		4B7932192004089500DF59E1 /* potionRH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = potionRH.h; sourceTree = "<group>"; };
+		4B79321A2004089500DF59E1 /* cellEmpty.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cellEmpty.cc; sourceTree = "<group>"; };
+		4B79321B2004089500DF59E1 /* enemyOrcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enemyOrcs.h; sourceTree = "<group>"; };
+		4B79321C2004089500DF59E1 /* potionWA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = potionWA.h; sourceTree = "<group>"; };
+		4B79321D2004089500DF59E1 /* potionBD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = potionBD.h; sourceTree = "<group>"; };
+		4B79321E2004089500DF59E1 /* potionRH.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = potionRH.cc; sourceTree = "<group>"; };
+		4B79321F2004089600DF59E1 /* figure.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = figure.cc; sourceTree = "<group>"; };
+		4B7932202004089600DF59E1 /* enemyDwarf.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enemyDwarf.cc; sourceTree = "<group>"; };
+		4B7932212004089600DF59E1 /* goldNormal.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = goldNormal.cc; sourceTree = "<group>"; };
+		4B7932222004089600DF59E1 /* thing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thing.h; sourceTree = "<group>"; };
+		4B7932232004089600DF59E1 /* goldMerchant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = goldMerchant.h; sourceTree = "<group>"; };
+		4B7932242004089600DF59E1 /* pcGoblin.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pcGoblin.cc; sourceTree = "<group>"; };
+		4B7932252004089600DF59E1 /* cellStairWay.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cellStairWay.cc; sourceTree = "<group>"; };
+		4B7932262004089600DF59E1 /* potion.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = potion.cc; sourceTree = "<group>"; };
+		4B7932272004089600DF59E1 /* potionBA.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = potionBA.cc; sourceTree = "<group>"; };
+		4B7932282004089600DF59E1 /* pcVampire.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pcVampire.cc; sourceTree = "<group>"; };
+		4B7932292004089600DF59E1 /* enemyDwarf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enemyDwarf.h; sourceTree = "<group>"; };
+		4B79322A2004089600DF59E1 /* goldSmall.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = goldSmall.cc; sourceTree = "<group>"; };
+		4B79322B2004089600DF59E1 /* cellWall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellWall.h; sourceTree = "<group>"; };
+		4B79322C2004089700DF59E1 /* cellPassage.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cellPassage.cc; sourceTree = "<group>"; };
+		4B79322D2004089700DF59E1 /* enemyElf.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enemyElf.cc; sourceTree = "<group>"; };
+		4B79322E2004089700DF59E1 /* enemyHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enemyHuman.h; sourceTree = "<group>"; };
+		4B79322F2004089700DF59E1 /* globalPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globalPC.h; sourceTree = "<group>"; };
+		4B7932302004089700DF59E1 /* cellDoorWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellDoorWay.h; sourceTree = "<group>"; };
+		4B7932312004089700DF59E1 /* enemyHalfling.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enemyHalfling.cc; sourceTree = "<group>"; };
+		4B7932322004089700DF59E1 /* floor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = floor.h; sourceTree = "<group>"; };
+		4B7932332004089700DF59E1 /* enemyHuman.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enemyHuman.cc; sourceTree = "<group>"; };
+		4B7932342004089700DF59E1 /* goldDragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = goldDragon.h; sourceTree = "<group>"; };
+		4B7932352004089700DF59E1 /* main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
+		4B7932362004089800DF59E1 /* pcShade.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pcShade.cc; sourceTree = "<group>"; };
+		4B7932372004089800DF59E1 /* dlcTest001.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dlcTest001.txt; sourceTree = "<group>"; };
+		4B7932382004089800DF59E1 /* observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = observer.h; sourceTree = "<group>"; };
+		4B7932392004089800DF59E1 /* cellDoorWay.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cellDoorWay.cc; sourceTree = "<group>"; };
+		4B79323A2004089800DF59E1 /* goldMerchant.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = goldMerchant.cc; sourceTree = "<group>"; };
+		4B79323B2004089800DF59E1 /* enemy.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enemy.cc; sourceTree = "<group>"; };
+		4B79323C2004089800DF59E1 /* potionBA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = potionBA.h; sourceTree = "<group>"; };
+		4B79323D2004089900DF59E1 /* enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enemy.h; sourceTree = "<group>"; };
+		4B79323E2004089900DF59E1 /* cellPassage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellPassage.h; sourceTree = "<group>"; };
+		4B79323F2004089900DF59E1 /* enemyHalfling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enemyHalfling.h; sourceTree = "<group>"; };
+		4B7932402004089900DF59E1 /* potionWA.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = potionWA.cc; sourceTree = "<group>"; };
+		4B7932412004089900DF59E1 /* gold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gold.h; sourceTree = "<group>"; };
+		4B7932422004089900DF59E1 /* item.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = item.cc; sourceTree = "<group>"; };
+		4B7932432004089900DF59E1 /* floor.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = floor.cc; sourceTree = "<group>"; };
+		4B7932442004089A00DF59E1 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		4B7932452004089A00DF59E1 /* potionPH.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = potionPH.cc; sourceTree = "<group>"; };
+		4B7932462004089A00DF59E1 /* cellFloorTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellFloorTile.h; sourceTree = "<group>"; };
+		4B7932472004089A00DF59E1 /* globalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globalCell.h; sourceTree = "<group>"; };
+		4B7932482004089A00DF59E1 /* gold.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gold.cc; sourceTree = "<group>"; };
+		4B7932492004089A00DF59E1 /* goldSmall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = goldSmall.h; sourceTree = "<group>"; };
+		4B79324A2004089B00DF59E1 /* textdisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textdisplay.h; sourceTree = "<group>"; };
+		4B79324B2004089B00DF59E1 /* item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = item.h; sourceTree = "<group>"; };
+		4B79324C2004089B00DF59E1 /* pc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pc.h; sourceTree = "<group>"; };
+		4B79324D2004089B00DF59E1 /* enemyMerchant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enemyMerchant.h; sourceTree = "<group>"; };
+		4B79324E2004089B00DF59E1 /* emptyFloor.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = emptyFloor.txt; sourceTree = "<group>"; };
+		4B79324F2004089B00DF59E1 /* potionBD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = potionBD.cc; sourceTree = "<group>"; };
+		4B7932502004089B00DF59E1 /* goldDragon.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = goldDragon.cc; sourceTree = "<group>"; };
+		4B7932512004089C00DF59E1 /* enemyDragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enemyDragon.h; sourceTree = "<group>"; };
+		4B7932522004089C00DF59E1 /* potionPH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = potionPH.h; sourceTree = "<group>"; };
+		4B7932532004089C00DF59E1 /* subject.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = subject.cc; sourceTree = "<group>"; };
+		4B7932542004089C00DF59E1 /* dlcScoreBoard.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dlcScoreBoard.cc; sourceTree = "<group>"; };
+		4B7932552004089C00DF59E1 /* figure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = figure.h; sourceTree = "<group>"; };
+		4B7932562004089C00DF59E1 /* thing.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thing.cc; sourceTree = "<group>"; };
+		4B7932572004089C00DF59E1 /* pcShade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcShade.h; sourceTree = "<group>"; };
+		4B7932582004089C00DF59E1 /* pcTroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcTroll.h; sourceTree = "<group>"; };
+		4B7932592004089D00DF59E1 /* pcDrow.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pcDrow.cc; sourceTree = "<group>"; };
+		4B79325A2004089D00DF59E1 /* enemyOrcs.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enemyOrcs.cc; sourceTree = "<group>"; };
+		4B79325B2004089D00DF59E1 /* goldNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = goldNormal.h; sourceTree = "<group>"; };
+		4B79325C2004089D00DF59E1 /* enemyMerchant.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enemyMerchant.cc; sourceTree = "<group>"; };
+		4B79325D2004089D00DF59E1 /* cellEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellEmpty.h; sourceTree = "<group>"; };
+		4B79325E2004089D00DF59E1 /* dlcTest002.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dlcTest002.txt; sourceTree = "<group>"; };
+		4B79325F2004089D00DF59E1 /* dlcScoreBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlcScoreBoard.h; sourceTree = "<group>"; };
+		4B7932602004089D00DF59E1 /* pcDrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcDrow.h; sourceTree = "<group>"; };
+		4B7932612004089E00DF59E1 /* globalGold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globalGold.h; sourceTree = "<group>"; };
+		4B7932622004089E00DF59E1 /* cell.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cell.cc; sourceTree = "<group>"; };
+		4B7932632004089E00DF59E1 /* cellFloorTile.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cellFloorTile.cc; sourceTree = "<group>"; };
+		4B7932642004089E00DF59E1 /* enemyElf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enemyElf.h; sourceTree = "<group>"; };
+		4B7932652004089E00DF59E1 /* potion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = potion.h; sourceTree = "<group>"; };
+		4B7932662004089E00DF59E1 /* potionWD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = potionWD.cc; sourceTree = "<group>"; };
+		4B7932672004089E00DF59E1 /* random.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = random.cc; sourceTree = "<group>"; };
+		4B7932682004089F00DF59E1 /* pcVampire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcVampire.h; sourceTree = "<group>"; };
+		4B7932692004089F00DF59E1 /* cc3kfloor.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cc3kfloor.txt; sourceTree = "<group>"; };
+		4B79326A2004089F00DF59E1 /* textdisplay.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = textdisplay.cc; sourceTree = "<group>"; };
+		4B79326B2004089F00DF59E1 /* globalEnemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globalEnemy.h; sourceTree = "<group>"; };
+		4B79326C2004089F00DF59E1 /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		4B79326D2004089F00DF59E1 /* observer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = observer.cc; sourceTree = "<group>"; };
+		4B79326E2004089F00DF59E1 /* pcTroll.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pcTroll.cc; sourceTree = "<group>"; };
+		4B79326F200408A000DF59E1 /* enemyDragon.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enemyDragon.cc; sourceTree = "<group>"; };
+		4B793270200408A000DF59E1 /* cellWall.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cellWall.cc; sourceTree = "<group>"; };
+		4B793271200408A000DF59E1 /* pc.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pc.cc; sourceTree = "<group>"; };
+		4B793272200408A000DF59E1 /* cellStairWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellStairWay.h; sourceTree = "<group>"; };
+		4B793273200408A100DF59E1 /* pcGoblin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcGoblin.h; sourceTree = "<group>"; };
+		4B793274200408A100DF59E1 /* cc3k */ = {isa = PBXFileReference; lastKnownFileType = file; path = cc3k; sourceTree = "<group>"; };
+		4B793275200408A100DF59E1 /* cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cell.h; sourceTree = "<group>"; };
+		4B793276200408A100DF59E1 /* subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -344,49 +172,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B7931B22004077100DF59E1 /* cellFloorTile.o in Frameworks */,
-				4B7931CD2004077100DF59E1 /* pcVampire.o in Frameworks */,
-				4B7931B32004077100DF59E1 /* pcTroll.o in Frameworks */,
-				4B7932052004077100DF59E1 /* figure.o in Frameworks */,
-				4B7931EB2004077100DF59E1 /* cellEmpty.o in Frameworks */,
-				4B7931D22004077100DF59E1 /* potionBA.o in Frameworks */,
-				4B7931C62004077100DF59E1 /* goldDragon.o in Frameworks */,
-				4B79320C2004077100DF59E1 /* observer.o in Frameworks */,
-				4B79319B2004077100DF59E1 /* enemyDragon.o in Frameworks */,
-				4B7931F92004077100DF59E1 /* cellWall.o in Frameworks */,
-				4B7931DE2004077100DF59E1 /* enemyHuman.o in Frameworks */,
-				4B7931B02004077100DF59E1 /* cellPassage.o in Frameworks */,
-				4B7931982004077100DF59E1 /* main.o in Frameworks */,
-				4B7931A42004077100DF59E1 /* pcDrow.o in Frameworks */,
-				4B7931C52004077100DF59E1 /* subject.o in Frameworks */,
-				4B7931AB2004077100DF59E1 /* goldMerchant.o in Frameworks */,
-				4B7931B92004077100DF59E1 /* goldSmall.o in Frameworks */,
-				4B79320B2004077100DF59E1 /* pcGoblin.o in Frameworks */,
-				4B7932032004077100DF59E1 /* enemyOrcs.o in Frameworks */,
-				4B7931C82004077100DF59E1 /* thing.o in Frameworks */,
-				4B7931ED2004077100DF59E1 /* enemy.o in Frameworks */,
-				4B7931FC2004077100DF59E1 /* dlcScoreBoard.o in Frameworks */,
-				4B7932122004077100DF59E1 /* enemyDwarf.o in Frameworks */,
-				4B7932082004077100DF59E1 /* pc.o in Frameworks */,
-				4B7931DF2004077100DF59E1 /* cellStairWay.o in Frameworks */,
-				4B7931F22004077100DF59E1 /* enemyMerchant.o in Frameworks */,
-				4B7931C92004077100DF59E1 /* potionWD.o in Frameworks */,
-				4B7931A22004077100DF59E1 /* enemyElf.o in Frameworks */,
-				4B7931C32004077100DF59E1 /* goldNormal.o in Frameworks */,
-				4B7931F42004077100DF59E1 /* enemyHalfling.o in Frameworks */,
-				4B7931E82004077100DF59E1 /* potionPH.o in Frameworks */,
-				4B7931CE2004077100DF59E1 /* cellDoorWay.o in Frameworks */,
-				4B7931BA2004077100DF59E1 /* potionWA.o in Frameworks */,
-				4B7931C72004077100DF59E1 /* textdisplay.o in Frameworks */,
-				4B79319C2004077100DF59E1 /* floor.o in Frameworks */,
-				4B7931D12004077100DF59E1 /* item.o in Frameworks */,
-				4B7931962004077100DF59E1 /* potionRH.o in Frameworks */,
-				4B7931D52004077100DF59E1 /* random.o in Frameworks */,
-				4B79319D2004077100DF59E1 /* pcShade.o in Frameworks */,
-				4B7931F72004077100DF59E1 /* potionBD.o in Frameworks */,
-				4B7931C12004077100DF59E1 /* gold.o in Frameworks */,
-				4B7931F02004077100DF59E1 /* potion.o in Frameworks */,
-				4B7931E02004077100DF59E1 /* cell.o in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,190 +197,104 @@
 		4B7930D32004073500DF59E1 /* CC3K */ = {
 			isa = PBXGroup;
 			children = (
-				4B79318D2004077000DF59E1 /* cc3k */,
-				4B7931722004076C00DF59E1 /* cc3kfloor.txt */,
-				4B79316B2004076B00DF59E1 /* cell.cc */,
-				4B7931592004076800DF59E1 /* cell.d */,
-				4B7931902004077000DF59E1 /* cell.h */,
-				4B7931452004076400DF59E1 /* cell.o */,
-				4B7931262004076000DF59E1 /* cellDoorWay.cc */,
-				4B7931012004075B00DF59E1 /* cellDoorWay.d */,
-				4B7931142004075D00DF59E1 /* cellDoorWay.h */,
-				4B7931292004076000DF59E1 /* cellDoorWay.o */,
-				4B7930EE2004075700DF59E1 /* cellEmpty.cc */,
-				4B79318B2004076F00DF59E1 /* cellEmpty.d */,
-				4B7931662004076A00DF59E1 /* cellEmpty.h */,
-				4B7931562004076700DF59E1 /* cellEmpty.o */,
-				4B79316C2004076B00DF59E1 /* cellFloorTile.cc */,
-				4B7931252004076000DF59E1 /* cellFloorTile.d */,
-				4B79313A2004076300DF59E1 /* cellFloorTile.h */,
-				4B7931042004075B00DF59E1 /* cellFloorTile.o */,
-				4B7931102004075D00DF59E1 /* cellPassage.cc */,
-				4B7931322004076200DF59E1 /* cellPassage.d */,
-				4B7931302004076100DF59E1 /* cellPassage.h */,
-				4B7931022004075B00DF59E1 /* cellPassage.o */,
-				4B7930FE2004075A00DF59E1 /* cellStairWay.cc */,
-				4B7931632004076900DF59E1 /* cellStairWay.d */,
-				4B79318A2004076F00DF59E1 /* cellStairWay.h */,
-				4B7931442004076400DF59E1 /* cellStairWay.o */,
-				4B7931872004076F00DF59E1 /* cellWall.cc */,
-				4B7930F12004075700DF59E1 /* cellWall.d */,
-				4B79310F2004075D00DF59E1 /* cellWall.h */,
-				4B79316A2004076A00DF59E1 /* cellWall.o */,
-				4B7930DB2004075600DF59E1 /* dlcMap001.txt */,
-				4B7931532004076600DF59E1 /* dlcScoreBoard.cc */,
-				4B7931792004076D00DF59E1 /* dlcScoreBoard.d */,
-				4B7931682004076A00DF59E1 /* dlcScoreBoard.h */,
-				4B79316D2004076B00DF59E1 /* dlcScoreBoard.o */,
-				4B7931202004075F00DF59E1 /* dlcTest001.txt */,
-				4B7931672004076A00DF59E1 /* dlcTest002.txt */,
-				4B7931472004076500DF59E1 /* emptyFloor.txt */,
-				4B79312A2004076100DF59E1 /* enemy.cc */,
-				4B7930ED2004075700DF59E1 /* enemy.d */,
-				4B79312F2004076100DF59E1 /* enemy.h */,
-				4B7931582004076700DF59E1 /* enemy.o */,
-				4B7931862004076F00DF59E1 /* enemyDragon.cc */,
-				4B79317B2004076D00DF59E1 /* enemyDragon.d */,
-				4B79314E2004076600DF59E1 /* enemyDragon.h */,
-				4B7930E62004075600DF59E1 /* enemyDragon.o */,
-				4B7930F72004075800DF59E1 /* enemyDwarf.cc */,
-				4B79318F2004077000DF59E1 /* enemyDwarf.d */,
-				4B79310A2004075C00DF59E1 /* enemyDwarf.h */,
-				4B79318E2004077000DF59E1 /* enemyDwarf.o */,
-				4B7931112004075D00DF59E1 /* enemyElf.cc */,
-				4B7930EB2004075600DF59E1 /* enemyElf.d */,
-				4B79316E2004076B00DF59E1 /* enemyElf.h */,
-				4B7930EF2004075700DF59E1 /* enemyElf.o */,
-				4B7931152004075E00DF59E1 /* enemyHalfling.cc */,
-				4B7931122004075D00DF59E1 /* enemyHalfling.d */,
-				4B7931312004076200DF59E1 /* enemyHalfling.h */,
-				4B7931612004076900DF59E1 /* enemyHalfling.o */,
-				4B7931172004075E00DF59E1 /* enemyHuman.cc */,
-				4B79315E2004076900DF59E1 /* enemyHuman.d */,
-				4B7931132004075D00DF59E1 /* enemyHuman.h */,
-				4B7931422004076400DF59E1 /* enemyHuman.o */,
-				4B7931642004076A00DF59E1 /* enemyMerchant.cc */,
-				4B7931882004076F00DF59E1 /* enemyMerchant.d */,
-				4B7931462004076400DF59E1 /* enemyMerchant.h */,
-				4B79315F2004076900DF59E1 /* enemyMerchant.o */,
-				4B7931602004076900DF59E1 /* enemyOrcs.cc */,
-				4B79312B2004076100DF59E1 /* enemyOrcs.d */,
-				4B7930F02004075700DF59E1 /* enemyOrcs.h */,
-				4B79317A2004076D00DF59E1 /* enemyOrcs.o */,
-				4B7930F52004075800DF59E1 /* figure.cc */,
-				4B7931552004076700DF59E1 /* figure.d */,
-				4B7931542004076600DF59E1 /* figure.h */,
-				4B79317C2004076D00DF59E1 /* figure.o */,
-				4B7931372004076200DF59E1 /* floor.cc */,
-				4B79317D2004076D00DF59E1 /* floor.d */,
-				4B7931162004075E00DF59E1 /* floor.h */,
-				4B7930E72004075600DF59E1 /* floor.o */,
-				4B79317E2004076E00DF59E1 /* global.h */,
-				4B79313B2004076300DF59E1 /* globalCell.h */,
-				4B79317F2004076E00DF59E1 /* globalEnemy.h */,
-				4B79316F2004076B00DF59E1 /* globalGold.h */,
-				4B7931182004075E00DF59E1 /* globalPC.h */,
-				4B7930E92004075600DF59E1 /* globalPotion.h */,
-				4B79313C2004076300DF59E1 /* gold.cc */,
-				4B7931912004077000DF59E1 /* gold.d */,
-				4B7931342004076200DF59E1 /* gold.h */,
-				4B7931192004075E00DF59E1 /* gold.o */,
-				4B79314C2004076500DF59E1 /* goldDragon.cc */,
-				4B79310B2004075C00DF59E1 /* goldDragon.d */,
-				4B79311A2004075E00DF59E1 /* goldDragon.h */,
-				4B79311F2004075F00DF59E1 /* goldDragon.o */,
-				4B7931272004076000DF59E1 /* goldMerchant.cc */,
-				4B7930E02004075600DF59E1 /* goldMerchant.d */,
-				4B7930FC2004075A00DF59E1 /* goldMerchant.h */,
-				4B7930FD2004075A00DF59E1 /* goldMerchant.o */,
-				4B7930F82004075900DF59E1 /* goldNormal.cc */,
-				4B7931062004075B00DF59E1 /* goldNormal.d */,
-				4B7931622004076900DF59E1 /* goldNormal.h */,
-				4B79311C2004075F00DF59E1 /* goldNormal.o */,
-				4B79310E2004075D00DF59E1 /* goldSmall.cc */,
-				4B7931692004076A00DF59E1 /* goldSmall.d */,
-				4B7931402004076400DF59E1 /* goldSmall.h */,
-				4B79310C2004075C00DF59E1 /* goldSmall.o */,
-				4B7931362004076200DF59E1 /* item.cc */,
-				4B7930E22004075600DF59E1 /* item.d */,
-				4B7931432004076400DF59E1 /* item.h */,
-				4B79312C2004076100DF59E1 /* item.o */,
-				4B79311B2004075E00DF59E1 /* main.cc */,
-				4B7931782004076D00DF59E1 /* main.d */,
-				4B7930E12004075600DF59E1 /* main.o */,
-				4B7931382004076300DF59E1 /* Makefile */,
-				4B7931802004076E00DF59E1 /* observer.cc */,
-				4B7930DC2004075600DF59E1 /* observer.d */,
-				4B7931212004075F00DF59E1 /* observer.h */,
-				4B7931852004076F00DF59E1 /* observer.o */,
-				4B7931892004076F00DF59E1 /* pc.cc */,
-				4B7930F62004075800DF59E1 /* pc.d */,
-				4B7931482004076500DF59E1 /* pc.h */,
-				4B7931812004076E00DF59E1 /* pc.o */,
-				4B79315C2004076800DF59E1 /* pcDrow.cc */,
-				4B79313F2004076400DF59E1 /* pcDrow.d */,
-				4B7931702004076B00DF59E1 /* pcDrow.h */,
-				4B7930F22004075700DF59E1 /* pcDrow.o */,
-				4B7930FF2004075A00DF59E1 /* pcGoblin.cc */,
-				4B7930DE2004075600DF59E1 /* pcGoblin.d */,
-				4B79318C2004077000DF59E1 /* pcGoblin.h */,
-				4B7931842004076E00DF59E1 /* pcGoblin.o */,
-				4B79311D2004075F00DF59E1 /* pcShade.cc */,
-				4B7931712004076C00DF59E1 /* pcShade.d */,
-				4B79315A2004076800DF59E1 /* pcShade.h */,
-				4B7930E82004075600DF59E1 /* pcShade.o */,
-				4B7931822004076E00DF59E1 /* pcTroll.cc */,
-				4B7931492004076500DF59E1 /* pcTroll.d */,
-				4B79315B2004076800DF59E1 /* pcTroll.h */,
-				4B7931052004075B00DF59E1 /* pcTroll.o */,
-				4B7931072004075C00DF59E1 /* pcVampire.cc */,
-				4B7931732004076C00DF59E1 /* pcVampire.d */,
-				4B7931742004076C00DF59E1 /* pcVampire.h */,
-				4B7931282004076000DF59E1 /* pcVampire.o */,
-				4B7931032004075B00DF59E1 /* potion.cc */,
-				4B7930E32004075600DF59E1 /* potion.d */,
-				4B7931752004076C00DF59E1 /* potion.h */,
-				4B79315D2004076800DF59E1 /* potion.o */,
-				4B7931082004075C00DF59E1 /* potionBA.cc */,
-				4B7931002004075A00DF59E1 /* potionBA.d */,
-				4B79312D2004076100DF59E1 /* potionBA.h */,
-				4B79312E2004076100DF59E1 /* potionBA.o */,
-				4B79314A2004076500DF59E1 /* potionBD.cc */,
-				4B79314D2004076500DF59E1 /* potionBD.d */,
-				4B7930F32004075700DF59E1 /* potionBD.h */,
-				4B7931652004076A00DF59E1 /* potionBD.o */,
-				4B7931392004076300DF59E1 /* potionPH.cc */,
-				4B79313E2004076300DF59E1 /* potionPH.d */,
-				4B79314F2004076600DF59E1 /* potionPH.h */,
-				4B7931522004076600DF59E1 /* potionPH.o */,
-				4B7930F42004075700DF59E1 /* potionRH.cc */,
-				4B79313D2004076300DF59E1 /* potionRH.d */,
-				4B7930EA2004075600DF59E1 /* potionRH.h */,
-				4B7930DF2004075600DF59E1 /* potionRH.o */,
-				4B7931332004076200DF59E1 /* potionWA.cc */,
-				4B7931092004075C00DF59E1 /* potionWA.d */,
-				4B7930F92004075900DF59E1 /* potionWA.h */,
-				4B79310D2004075C00DF59E1 /* potionWA.o */,
-				4B7931762004076C00DF59E1 /* potionWD.cc */,
-				4B7930EC2004075700DF59E1 /* potionWD.d */,
-				4B7930E42004075600DF59E1 /* potionWD.h */,
-				4B7931242004076000DF59E1 /* potionWD.o */,
-				4B7931772004076D00DF59E1 /* random.cc */,
-				4B7930FA2004075900DF59E1 /* random.d */,
-				4B7930E52004075600DF59E1 /* random.h */,
-				4B7931352004076200DF59E1 /* random.o */,
-				4B7931512004076600DF59E1 /* subject.cc */,
-				4B79314B2004076500DF59E1 /* subject.d */,
-				4B7931922004077000DF59E1 /* subject.h */,
-				4B79311E2004075F00DF59E1 /* subject.o */,
-				4B7931832004076E00DF59E1 /* textdisplay.cc */,
-				4B7931502004076600DF59E1 /* textdisplay.d */,
-				4B7931412004076400DF59E1 /* textdisplay.h */,
-				4B7931222004075F00DF59E1 /* textdisplay.o */,
-				4B7931572004076700DF59E1 /* thing.cc */,
-				4B7930DD2004075600DF59E1 /* thing.d */,
-				4B7930FB2004075A00DF59E1 /* thing.h */,
-				4B7931232004076000DF59E1 /* thing.o */,
+				4B793274200408A100DF59E1 /* cc3k */,
+				4B7932692004089F00DF59E1 /* cc3kfloor.txt */,
+				4B7932622004089E00DF59E1 /* cell.cc */,
+				4B793275200408A100DF59E1 /* cell.h */,
+				4B7932392004089800DF59E1 /* cellDoorWay.cc */,
+				4B7932302004089700DF59E1 /* cellDoorWay.h */,
+				4B79321A2004089500DF59E1 /* cellEmpty.cc */,
+				4B79325D2004089D00DF59E1 /* cellEmpty.h */,
+				4B7932632004089E00DF59E1 /* cellFloorTile.cc */,
+				4B7932462004089A00DF59E1 /* cellFloorTile.h */,
+				4B79322C2004089700DF59E1 /* cellPassage.cc */,
+				4B79323E2004089900DF59E1 /* cellPassage.h */,
+				4B7932252004089600DF59E1 /* cellStairWay.cc */,
+				4B793272200408A000DF59E1 /* cellStairWay.h */,
+				4B793270200408A000DF59E1 /* cellWall.cc */,
+				4B79322B2004089600DF59E1 /* cellWall.h */,
+				4B7932152004089500DF59E1 /* dlcMap001.txt */,
+				4B7932542004089C00DF59E1 /* dlcScoreBoard.cc */,
+				4B79325F2004089D00DF59E1 /* dlcScoreBoard.h */,
+				4B7932372004089800DF59E1 /* dlcTest001.txt */,
+				4B79325E2004089D00DF59E1 /* dlcTest002.txt */,
+				4B79324E2004089B00DF59E1 /* emptyFloor.txt */,
+				4B79323B2004089800DF59E1 /* enemy.cc */,
+				4B79323D2004089900DF59E1 /* enemy.h */,
+				4B79326F200408A000DF59E1 /* enemyDragon.cc */,
+				4B7932512004089C00DF59E1 /* enemyDragon.h */,
+				4B7932202004089600DF59E1 /* enemyDwarf.cc */,
+				4B7932292004089600DF59E1 /* enemyDwarf.h */,
+				4B79322D2004089700DF59E1 /* enemyElf.cc */,
+				4B7932642004089E00DF59E1 /* enemyElf.h */,
+				4B7932312004089700DF59E1 /* enemyHalfling.cc */,
+				4B79323F2004089900DF59E1 /* enemyHalfling.h */,
+				4B7932332004089700DF59E1 /* enemyHuman.cc */,
+				4B79322E2004089700DF59E1 /* enemyHuman.h */,
+				4B79325C2004089D00DF59E1 /* enemyMerchant.cc */,
+				4B79324D2004089B00DF59E1 /* enemyMerchant.h */,
+				4B79325A2004089D00DF59E1 /* enemyOrcs.cc */,
+				4B79321B2004089500DF59E1 /* enemyOrcs.h */,
+				4B79321F2004089600DF59E1 /* figure.cc */,
+				4B7932552004089C00DF59E1 /* figure.h */,
+				4B7932432004089900DF59E1 /* floor.cc */,
+				4B7932322004089700DF59E1 /* floor.h */,
+				4B79326C2004089F00DF59E1 /* global.h */,
+				4B7932472004089A00DF59E1 /* globalCell.h */,
+				4B79326B2004089F00DF59E1 /* globalEnemy.h */,
+				4B7932612004089E00DF59E1 /* globalGold.h */,
+				4B79322F2004089700DF59E1 /* globalPC.h */,
+				4B7932182004089500DF59E1 /* globalPotion.h */,
+				4B7932482004089A00DF59E1 /* gold.cc */,
+				4B7932412004089900DF59E1 /* gold.h */,
+				4B7932502004089B00DF59E1 /* goldDragon.cc */,
+				4B7932342004089700DF59E1 /* goldDragon.h */,
+				4B79323A2004089800DF59E1 /* goldMerchant.cc */,
+				4B7932232004089600DF59E1 /* goldMerchant.h */,
+				4B7932212004089600DF59E1 /* goldNormal.cc */,
+				4B79325B2004089D00DF59E1 /* goldNormal.h */,
+				4B79322A2004089600DF59E1 /* goldSmall.cc */,
+				4B7932492004089A00DF59E1 /* goldSmall.h */,
+				4B7932422004089900DF59E1 /* item.cc */,
+				4B79324B2004089B00DF59E1 /* item.h */,
+				4B7932352004089700DF59E1 /* main.cc */,
+				4B7932442004089A00DF59E1 /* Makefile */,
+				4B79326D2004089F00DF59E1 /* observer.cc */,
+				4B7932382004089800DF59E1 /* observer.h */,
+				4B793271200408A000DF59E1 /* pc.cc */,
+				4B79324C2004089B00DF59E1 /* pc.h */,
+				4B7932592004089D00DF59E1 /* pcDrow.cc */,
+				4B7932602004089D00DF59E1 /* pcDrow.h */,
+				4B7932242004089600DF59E1 /* pcGoblin.cc */,
+				4B793273200408A100DF59E1 /* pcGoblin.h */,
+				4B7932362004089800DF59E1 /* pcShade.cc */,
+				4B7932572004089C00DF59E1 /* pcShade.h */,
+				4B79326E2004089F00DF59E1 /* pcTroll.cc */,
+				4B7932582004089C00DF59E1 /* pcTroll.h */,
+				4B7932282004089600DF59E1 /* pcVampire.cc */,
+				4B7932682004089F00DF59E1 /* pcVampire.h */,
+				4B7932262004089600DF59E1 /* potion.cc */,
+				4B7932652004089E00DF59E1 /* potion.h */,
+				4B7932272004089600DF59E1 /* potionBA.cc */,
+				4B79323C2004089800DF59E1 /* potionBA.h */,
+				4B79324F2004089B00DF59E1 /* potionBD.cc */,
+				4B79321D2004089500DF59E1 /* potionBD.h */,
+				4B7932452004089A00DF59E1 /* potionPH.cc */,
+				4B7932522004089C00DF59E1 /* potionPH.h */,
+				4B79321E2004089500DF59E1 /* potionRH.cc */,
+				4B7932192004089500DF59E1 /* potionRH.h */,
+				4B7932402004089900DF59E1 /* potionWA.cc */,
+				4B79321C2004089500DF59E1 /* potionWA.h */,
+				4B7932662004089E00DF59E1 /* potionWD.cc */,
+				4B7932162004089500DF59E1 /* potionWD.h */,
+				4B7932672004089E00DF59E1 /* random.cc */,
+				4B7932172004089500DF59E1 /* random.h */,
+				4B7932532004089C00DF59E1 /* subject.cc */,
+				4B793276200408A100DF59E1 /* subject.h */,
+				4B79326A2004089F00DF59E1 /* textdisplay.cc */,
+				4B79324A2004089B00DF59E1 /* textdisplay.h */,
+				4B7932562004089C00DF59E1 /* thing.cc */,
+				4B7932222004089600DF59E1 /* thing.h */,
 			);
 			path = CC3K;
 			sourceTree = "<group>";
@@ -657,93 +356,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B7931D82004077100DF59E1 /* Makefile in Sources */,
-				4B7931FD2004077100DF59E1 /* pcShade.d in Sources */,
-				4B7932022004077100DF59E1 /* dlcScoreBoard.d in Sources */,
-				4B7931D62004077100DF59E1 /* item.cc in Sources */,
-				4B7932042004077100DF59E1 /* enemyDragon.d in Sources */,
-				4B79320E2004077100DF59E1 /* cellWall.cc in Sources */,
-				4B7931A92004077100DF59E1 /* goldNormal.cc in Sources */,
-				4B79319F2004077100DF59E1 /* potionWD.d in Sources */,
-				4B7931EF2004077100DF59E1 /* pcDrow.cc in Sources */,
-				4B7932112004077100DF59E1 /* cellEmpty.d in Sources */,
-				4B7931A12004077100DF59E1 /* cellEmpty.cc in Sources */,
-				4B7931E12004077100DF59E1 /* pcTroll.d in Sources */,
-				4B7931992004077100DF59E1 /* item.d in Sources */,
-				4B7932092004077100DF59E1 /* pcTroll.cc in Sources */,
-				4B7931FB2004077100DF59E1 /* cellFloorTile.cc in Sources */,
-				4B7931E72004077100DF59E1 /* subject.cc in Sources */,
-				4B7931972004077100DF59E1 /* goldMerchant.d in Sources */,
-				4B7932062004077100DF59E1 /* floor.d in Sources */,
-				4B7931B72004077100DF59E1 /* potionWA.d in Sources */,
-				4B7931FE2004077100DF59E1 /* pcVampire.d in Sources */,
-				4B7931C22004077100DF59E1 /* main.cc in Sources */,
-				4B7931AC2004077100DF59E1 /* cellStairWay.cc in Sources */,
-				4B7931D92004077100DF59E1 /* potionPH.cc in Sources */,
-				4B79320F2004077100DF59E1 /* enemyMerchant.d in Sources */,
-				4B7931BF2004077100DF59E1 /* enemyHalfling.cc in Sources */,
-				4B7932072004077100DF59E1 /* observer.cc in Sources */,
-				4B7931EA2004077100DF59E1 /* figure.d in Sources */,
-				4B7931F52004077100DF59E1 /* cellStairWay.d in Sources */,
-				4B7931AF2004077100DF59E1 /* cellDoorWay.d in Sources */,
-				4B7931932004077100DF59E1 /* observer.d in Sources */,
-				4B7931EE2004077100DF59E1 /* cell.d in Sources */,
-				4B7931B62004077100DF59E1 /* potionBA.cc in Sources */,
-				4B7931E52004077100DF59E1 /* potionBD.d in Sources */,
-				4B7931BE2004077100DF59E1 /* enemyHalfling.d in Sources */,
-				4B7931BC2004077100DF59E1 /* cellPassage.cc in Sources */,
-				4B7932012004077100DF59E1 /* main.d in Sources */,
-				4B7931FF2004077100DF59E1 /* potionWD.cc in Sources */,
-				4B7931E32004077100DF59E1 /* subject.d in Sources */,
-				4B7932002004077100DF59E1 /* random.cc in Sources */,
-				4B7931A72004077100DF59E1 /* pc.d in Sources */,
-				4B7931952004077100DF59E1 /* pcGoblin.d in Sources */,
-				4B7931B12004077100DF59E1 /* potion.cc in Sources */,
-				4B7931DA2004077100DF59E1 /* gold.cc in Sources */,
-				4B7931E22004077100DF59E1 /* potionBD.cc in Sources */,
-				4B7931F62004077100DF59E1 /* enemyMerchant.cc in Sources */,
-				4B7931CB2004077100DF59E1 /* cellDoorWay.cc in Sources */,
-				4B7931E62004077100DF59E1 /* textdisplay.d in Sources */,
-				4B7931D42004077100DF59E1 /* potionWA.cc in Sources */,
-				4B7931D02004077100DF59E1 /* enemyOrcs.d in Sources */,
-				4B7931CA2004077100DF59E1 /* cellFloorTile.d in Sources */,
-				4B7931CF2004077100DF59E1 /* enemy.cc in Sources */,
-				4B7931C02004077100DF59E1 /* enemyHuman.cc in Sources */,
-				4B7931A52004077100DF59E1 /* potionRH.cc in Sources */,
-				4B7931F12004077100DF59E1 /* enemyHuman.d in Sources */,
-				4B79319E2004077100DF59E1 /* enemyElf.d in Sources */,
-				4B7931F82004077100DF59E1 /* goldSmall.d in Sources */,
-				4B7931E92004077100DF59E1 /* dlcScoreBoard.cc in Sources */,
-				4B7931A82004077100DF59E1 /* enemyDwarf.cc in Sources */,
-				4B7931B42004077100DF59E1 /* goldNormal.d in Sources */,
-				4B7931A62004077100DF59E1 /* figure.cc in Sources */,
-				4B7931D32004077100DF59E1 /* cellPassage.d in Sources */,
-				4B7931E42004077100DF59E1 /* goldDragon.cc in Sources */,
-				4B7932132004077100DF59E1 /* enemyDwarf.d in Sources */,
-				4B7932142004077100DF59E1 /* gold.d in Sources */,
-				4B7931D72004077100DF59E1 /* floor.cc in Sources */,
-				4B7931A02004077100DF59E1 /* enemy.d in Sources */,
-				4B7931942004077100DF59E1 /* thing.d in Sources */,
-				4B7931FA2004077100DF59E1 /* cell.cc in Sources */,
-				4B7931AA2004077100DF59E1 /* random.d in Sources */,
-				4B7931AE2004077100DF59E1 /* potionBA.d in Sources */,
-				4B7931AD2004077100DF59E1 /* pcGoblin.cc in Sources */,
-				4B7931BB2004077100DF59E1 /* goldSmall.cc in Sources */,
-				4B79319A2004077100DF59E1 /* potion.d in Sources */,
-				4B7931F32004077100DF59E1 /* enemyOrcs.cc in Sources */,
-				4B7931BD2004077100DF59E1 /* enemyElf.cc in Sources */,
-				4B7932102004077100DF59E1 /* pc.cc in Sources */,
-				4B7931CC2004077100DF59E1 /* goldMerchant.cc in Sources */,
-				4B7931A32004077100DF59E1 /* cellWall.d in Sources */,
-				4B7931B52004077100DF59E1 /* pcVampire.cc in Sources */,
-				4B7931DD2004077100DF59E1 /* pcDrow.d in Sources */,
-				4B7931B82004077100DF59E1 /* goldDragon.d in Sources */,
-				4B7931DC2004077100DF59E1 /* potionPH.d in Sources */,
-				4B79320D2004077100DF59E1 /* enemyDragon.cc in Sources */,
-				4B7931C42004077100DF59E1 /* pcShade.cc in Sources */,
-				4B79320A2004077100DF59E1 /* textdisplay.cc in Sources */,
-				4B7931EC2004077100DF59E1 /* thing.cc in Sources */,
-				4B7931DB2004077100DF59E1 /* potionRH.d in Sources */,
+				4B7932A2200408A100DF59E1 /* pc.cc in Sources */,
+				4B79329F200408A100DF59E1 /* pcTroll.cc in Sources */,
+				4B793291200408A100DF59E1 /* potionBD.cc in Sources */,
+				4B79328D200408A100DF59E1 /* floor.cc in Sources */,
+				4B793295200408A100DF59E1 /* thing.cc in Sources */,
+				4B793286200408A100DF59E1 /* main.cc in Sources */,
+				4B793294200408A100DF59E1 /* dlcScoreBoard.cc in Sources */,
+				4B79327F200408A100DF59E1 /* potionBA.cc in Sources */,
+				4B793279200408A100DF59E1 /* figure.cc in Sources */,
+				4B793293200408A100DF59E1 /* subject.cc in Sources */,
+				4B79329A200408A100DF59E1 /* cellFloorTile.cc in Sources */,
+				4B79327C200408A100DF59E1 /* pcGoblin.cc in Sources */,
+				4B793292200408A100DF59E1 /* goldDragon.cc in Sources */,
+				4B793284200408A100DF59E1 /* enemyHalfling.cc in Sources */,
+				4B793297200408A100DF59E1 /* enemyOrcs.cc in Sources */,
+				4B79328E200408A100DF59E1 /* Makefile in Sources */,
+				4B793296200408A100DF59E1 /* pcDrow.cc in Sources */,
+				4B793299200408A100DF59E1 /* cell.cc in Sources */,
+				4B793280200408A100DF59E1 /* pcVampire.cc in Sources */,
+				4B79328A200408A100DF59E1 /* enemy.cc in Sources */,
+				4B793298200408A100DF59E1 /* enemyMerchant.cc in Sources */,
+				4B793278200408A100DF59E1 /* potionRH.cc in Sources */,
+				4B793287200408A100DF59E1 /* pcShade.cc in Sources */,
+				4B793290200408A100DF59E1 /* gold.cc in Sources */,
+				4B79327B200408A100DF59E1 /* goldNormal.cc in Sources */,
+				4B79329E200408A100DF59E1 /* observer.cc in Sources */,
+				4B7932A1200408A100DF59E1 /* cellWall.cc in Sources */,
+				4B7932A0200408A100DF59E1 /* enemyDragon.cc in Sources */,
+				4B793288200408A100DF59E1 /* cellDoorWay.cc in Sources */,
+				4B793283200408A100DF59E1 /* enemyElf.cc in Sources */,
+				4B79328C200408A100DF59E1 /* item.cc in Sources */,
+				4B79329D200408A100DF59E1 /* textdisplay.cc in Sources */,
+				4B79329C200408A100DF59E1 /* random.cc in Sources */,
+				4B793282200408A100DF59E1 /* cellPassage.cc in Sources */,
+				4B793277200408A100DF59E1 /* cellEmpty.cc in Sources */,
+				4B79327D200408A100DF59E1 /* cellStairWay.cc in Sources */,
+				4B79328F200408A100DF59E1 /* potionPH.cc in Sources */,
+				4B793289200408A100DF59E1 /* goldMerchant.cc in Sources */,
+				4B79329B200408A100DF59E1 /* potionWD.cc in Sources */,
+				4B79327E200408A100DF59E1 /* potion.cc in Sources */,
+				4B79327A200408A100DF59E1 /* enemyDwarf.cc in Sources */,
+				4B79328B200408A100DF59E1 /* potionWA.cc in Sources */,
+				4B793285200408A100DF59E1 /* enemyHuman.cc in Sources */,
+				4B793281200408A100DF59E1 /* goldSmall.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
